@@ -47,8 +47,6 @@ private:
 
 };
 
-
-//my brother showed me how to conveniently define bools adjacent to their declarations
 bool operator<(const Complex& op1, const Complex& op2) { return (op1.compareTo(op2)<0); }
 bool operator<=(const Complex& op1, const Complex& op2) { return (op1.compareTo(op2)<=0); }
 bool operator>(const Complex& op1, const Complex& op2) { return (op1.compareTo(op2)>0); }
